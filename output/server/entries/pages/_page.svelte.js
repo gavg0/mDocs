@@ -3,14 +3,14 @@ import "marked";
 const myImage = "/_app/immutable/assets/tailwing.973e44a4.png";
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `${$$result.head += `<!-- HEAD_svelte-rb59d9_START -->${$$result.title = `<title>mDocs</title>`, ""}<meta name="description" content="Write your Documentation once, export it for every purpose"><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"><!-- HEAD_svelte-rb59d9_END -->`, ""}
-<body class="dark:bg-black bg-slate-100"><div class="mx-auto my-auto pt-48 relative"><h1 class="text-center dark:text-white text-6xl font-bold">Effortless Code Documentation: <br>
+<body class="dark:bg-black bg-slate-100"><div class="mx-auto my-auto pt-24 lg:pt-36 relative"><h1 class="text-center dark:text-white text-5xl lg:text-6xl font-bold">Effortless Code Documentation: <br>
             <span class="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Build, Export,</span> 
             and Showcase with Ease!</h1></div>
-        <div class="flex flex-col lg:flex-row pt-12 pb-24 max-w-9xl mx-auto"><div class="w-screen lg:w-1/2 relative my-auto"><p class="text-4xl text-white px-6"><span class="text-6xl font-bold">Write your Docs once,<br>
+        <div class="flex flex-col lg:flex-row pt-12 pb-24 max-w-8xl mx-auto"><div class="w-screen lg:w-1/2 relative text-center lg:text-left my-auto"><p class="text-3xl text-white px-6"><span class="text-5xl font-bold">Write your Docs once,<br>
                 use it everywhere.
                 </span><br>
-                Write it in Markdown and <br> 
-                export it as a stunning HTML Markdown page, <br>
+                Write it in Markdown and export it <br>
+                as a stunning HTML Markdown page, <br>
                 a GitHub documentation, or a PDF file.
             </p>
             <p class="relative mx-auto bg-blue p-6 rounded-lg drop-shadow-sm">Try it now!

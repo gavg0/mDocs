@@ -4,7 +4,7 @@ export const manifest = {
 	assets: new Set(["favicon.png","tailwind.png"]),
 	mimeTypes: {".png":"image/png"},
 	_: {
-		client: {"start":"_app/immutable/entry/start.68dab9ee.js","app":"_app/immutable/entry/app.a3382741.js","imports":["_app/immutable/entry/start.68dab9ee.js","_app/immutable/chunks/index.c9c1f16e.js","_app/immutable/chunks/singletons.5c868114.js","_app/immutable/entry/app.a3382741.js","_app/immutable/chunks/index.c9c1f16e.js"],"stylesheets":[],"fonts":[]},
+		client: {"start":"_app/immutable/entry/start.1171482a.js","app":"_app/immutable/entry/app.929755b4.js","imports":["_app/immutable/entry/start.1171482a.js","_app/immutable/chunks/index.c9c1f16e.js","_app/immutable/chunks/singletons.66d6ab86.js","_app/immutable/entry/app.929755b4.js","_app/immutable/chunks/index.c9c1f16e.js"],"stylesheets":[],"fonts":[]},
 		nodes: [
 			() => import('./nodes/0.js'),
 			() => import('./nodes/1.js'),

@@ -320,11 +320,6 @@ const SvelteMarkdown = create_ssr_component(($$result, $$props, $$bindings, slot
   combinedRenderers = { ...defaultRenderers, ...renderers };
   return `${validate_component(Parser, "Parser").$$render($$result, { tokens, renderers: combinedRenderers }, {}, {})}`;
 });
-const _page_svelte_svelte_type_style_lang = "";
-const css = {
-  code: "html{background-color:#f3f4f6}",
-  map: null
-};
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   var source = `
     # This is a header
@@ -342,14 +337,12 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   |-------------|---------|
   | With two    | columns |
   `;
-  $$result.css.add(css);
   return `<head></head>
   <div class="bg-bgDark"><div class="flex"><div class="w-1/2 h-screen">
         
           <textarea class="w-full min-h-screen mx-auto focus:outline-none p-2 bg-black text-white">${source}</textarea></div>
       <div class="w-1/2 min-h-screen">
-          <article class="prose prose-lg text-white">${validate_component(SvelteMarkdown, "SvelteMarkdown").$$render($$result, { source }, {}, {})}</article></div></div>
-  </div>`;
+          <article class="prose prose-lg text-white">${validate_component(SvelteMarkdown, "SvelteMarkdown").$$render($$result, { source }, {}, {})}</article></div></div></div>`;
 });
 export {
   Page as default
