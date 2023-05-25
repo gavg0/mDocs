@@ -21,6 +21,9 @@ export default {
       borderRadius: {
         '3xl': '1.5rem',
       },
+      blur: {
+        '5xl': '70px',
+      },
       maxWidth: {
         '8xl': '88rem',
         '9xl': '96rem',
