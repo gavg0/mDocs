@@ -3,5 +3,11 @@
 @tailwind utilities;
 
 code{
-        
+    background-color: blueviolet;
+}
+.lmao{
+
+    background-color: rgb(249, 168, 212);
+    background-image: radial-gradient(at 20% 97%, rgb(244, 114, 182) 0, transparent 30%), radial-gradient(at 61% 98%, rgb(124, 58, 237) 0, transparent 93%), radial-gradient(at 37% 87%, rgb(30, 64, 175) 0, transparent 1%), radial-gradient(at 97% 51%, rgb(113, 113, 122) 0, transparent 43%), radial-gradient(at 85% 59%, rgb(24, 24, 27) 0, transparent 31%), radial-gradient(at 59% 72%, rgb(8, 145, 178) 0, transparent 97%);
+  
 }
